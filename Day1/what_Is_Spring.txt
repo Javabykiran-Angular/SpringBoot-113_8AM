@@ -1,0 +1,32 @@
+What is Spring Framework?
+
+framework-
+  1 framework is a set of API(It's predefined classes & interface) which works predefined algorithms & targetated to specific domain
+  2 to develop the application in the systematic format with the help of framework
+  e.g in photo studio shop if we want photo frame the shopkeeper will ask size of frame such as 4 by 4, 4 by 6 or etc so it has fixed size its a framework now in that photo frame we can tag your photo,your gf/bf photo.In short that frame given by shopkeeper & you can tag your photo in that it is called framework.
+  3 Spring is framework of framework i.e combination of framework (means it work all functionality of core java standalone application,web application,data structure as collection framework).
+  4 It has fix Flow it already predefined e.g. bus route is fix from katraj to swarget & swarget to katraj
+
+Spring Framework:
+	- Pre-requisits: OOP concepts & coding,core java,Introductory knowlegdge of Advanced Java.
+	- Spring is light-weight comprehensive framework to Simplify Java (SE+EE) Development.
+	- Light-weight -- Framework size is small + minimal num of jars (for give req.) + Minimal overheads.
+		- Comprehensive -- Provides lot of functionality in minimal code.
+		- Simplify Java Development -- Developer can focus on business logic, Spring manage testing, integration of other libs, ...
+		- Depedency Injection
+		
+- Spring Framework:
+		- 2003 -- Rod Johnson -- sourceforge.net -- Open Source project.
+		- Spring 1.x
+		- Spring 2.x
+		- * Spring 3.x -- Annotation based config.
+		- * Spring 4.x => 4.x.x
+		- Spring 5.x
+		
+- Spring Features:
+		- Modular -- different jars for different functionalities.
+		- Flexible -- Most of frameworks follow "All or nothing" policy -- Spring is exception
+		- Test Driven Development -- Unit testing is well integrated in Spring + Supprt for other testing.
+		- Maintainable/Extendable -- Start with interfaces & can change impl over the time.
+		- Exceptions -- Spring convert/wraps all checked exception into unchecked one.
+		- Depedency Injection
