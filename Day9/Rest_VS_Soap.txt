@@ -1,0 +1,72 @@
+What is HTTP?
+- HTTP stands for Hyper Text Transfer Protocol
+WWW is about communication between web clients and servers
+Communication between client computers and web servers is done by sending HTTP Requests and receiving HTTP Responses
+
+- HTTP is connection less protocol i.e. for each request from client a new socket connection is established for the server, through with request data is sent to the server. Server does process and produces response, which in turn sent back to the client through same socket and then connection is closed. For next request, new connection will be established.
+
+- HTTP follows Request-Response model.
+
+Http Request has 2 parts
+	1  header
+		- ip 
+		- contentType=>
+				html/text/image/json
+		 ApplicationContent="html/text"
+		- Authorization
+		- date time
+		- method				
+	
+	2  body
+		data => 
+			1 html/text
+			2 json
+
+HttpResponse
+	1 header
+		- ip 
+		- contentType=>
+				html/text/image/json
+		 ApplicationContent="html/text"
+		- Authorization
+		- date time
+		- method
+		-status code
+		
+	2 body
+		data text/html
+				json
+
+
++ HTTP Status code:
+	2xx --> success e.g. 200 (success/OK)
+	3xx --> redirection e.g. 302 (http redirection)
+	4xx --> errors e.g. 403 (forbidden), 404 (not found), ...	
+	5xx --> server errors
+
+
+	
+- REST VS Soap
+
++ REST 
+	- Typically REST works on top of HTTP protocol
+	- Can be accessed from any device which has internet connection.
+	- REST is lightweight (than SOAP)
+		- gives freedom -- XML or JSON -- JSON is preferred.
+		- JSON processing is lighter.
+		- JSON needs less data
+
++ SOAP 
+	- SOAP services gives XML data 
+	- Can be accessed & processing XML data needs more device config.
+		- XML processing is heavy
+		- XML needs more data
+		
+	
+
+		
+
+		
+		
+
+		
