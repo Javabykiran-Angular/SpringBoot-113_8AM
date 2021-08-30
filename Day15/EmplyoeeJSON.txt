@@ -1,0 +1,17 @@
+
+Employee json
+
+{
+    "id": 1,
+"name": "Sumit",
+"phoneno": "1234567890",
+"departmentit": "it",
+"status": "active",
+"createdby": "admin",
+"updatedby": "admin",
+"createddtm": "2021-07-30T10:21:25.000+00:00",
+"updateddtm": "2021-07-30T10:21:25.000+00:00",
+"country":{
+    "cid":1
+}
+}
