@@ -1,0 +1,11 @@
+1 archetype1 => spring mvc
+group id= fr.uha.ensisa.ff
+artifact id = spring-mvc-archetype
+version= 1.0.8
+
+go for second
+
+2 archetype2 => spring mvc
+group id= co.ntier
+artifact id = spring-mvc-archetype
+version= 1.0.2

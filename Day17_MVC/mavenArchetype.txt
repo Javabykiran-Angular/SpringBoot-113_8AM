@@ -1,0 +1,9 @@
+
+adding the maven archetype catalog to eclipse. Steps are provided below: (Please note the https protocol)
+
+Open Window > Preferences
+Open Maven > Archetypes
+Click 'Add Remote Catalog' and add the following:
+
+Catalog File: https://repo1.maven.org/maven2/archetype-catalog.xml
+Description: maven catalog
